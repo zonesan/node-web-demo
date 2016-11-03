@@ -4,6 +4,7 @@ FROM node
 
 ADD . /
 
+RUN npm install --save express
 # Install nginx & node
 # Install Bower
 # Install node & bower depends

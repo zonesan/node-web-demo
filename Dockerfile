@@ -2,6 +2,7 @@ FROM node
 
 # Copy code
 
+ADD . /
 
 # Install nginx & node
 # Install Bower
